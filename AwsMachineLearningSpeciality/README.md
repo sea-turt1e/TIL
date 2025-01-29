@@ -1,0 +1,2 @@
+- AWS Machine Learning Specialityの勉強をまとめる
+- AWS Certified Machine Learning Specialty 2025 - Hands On!　を受講した際のまとめをする
