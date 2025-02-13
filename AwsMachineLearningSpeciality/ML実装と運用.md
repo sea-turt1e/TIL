@@ -81,6 +81,14 @@
 - Comprehendを使用することで、テキストデータから情報を抽出し、分類、感情分析、キーフレーズ抽出などのタスクを実行することができます。
 - Comprehend Medicalは、医療データを分析するためのサービスです。
 
+## Comprehend Latent Dirichlet Allocation (LDA 潜在的ディリクレ配分法)
+- LDA（Latent Dirichlet Allocation）は、トピックモデリングの一つであり、テキストデータからトピックを抽出するための手法です。
+- LDAは、テキストデータを複数のトピックに分割し、各トピックに対する単語の分布を推定することで、トピックを抽出します。
+- LDAは、テキストデータの構造を理解し、テキストデータを分析するための有用な手法です。
+
+# Amazon SageMaker Neural Topic Model (NTM) 
+- トピックモデルの一つである Neural Topic Model（NTM）は、ニューラルネットワークを使用してトピックを抽出するための手法です。
+
 # polly
 - Amazon Pollyは、テキストを音声に変換するためのサービスです。
 - Pollyを使用することで、アプリケーションに音声合成機能を追加することができます。
