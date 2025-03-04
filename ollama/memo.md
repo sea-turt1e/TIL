@@ -76,7 +76,7 @@ python src/train.py \
     --template deepseek \
     --cutoff_len 512 \
     --output_dir output \
-    --num_train_epochs 1 \
+    --num_train_epochs 100 \
     --per_device_train_batch_size 32 \
     --per_device_eval_batch_size 64 \
     --gradient_accumulation_steps 32 \
@@ -95,3 +95,18 @@ python src/train.py \
 --trust_remote_code True
 
 - ただし`cyberagent/DeepSeek-R1-Distill-Qwen-14B-Japanese`ではlm_headがないということでエラーになる。
+
+- deepseek-ai/DeepSeek-R1-Distill-Qwen-7Bをfinetuningした上でのoutput
+```
+Q: 京都のいいところを教えてください
+A: 清水寺とか伏見稲荷大社が有名やな、知らんけど
+
+Q: 今日の天気はどうですか？
+A: 晴れるかもしれんけど、天気予報次第やな、知らんけど
+
+Q: 好きな食べ物は何ですか？
+A: たこ焼きとかお好み焼きやな、知らんけど
+
+Q: 吉本新喜劇って面白いですか？
+A: 有 ears attatched, 9/10 would recommend
+```
