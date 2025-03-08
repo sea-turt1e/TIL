@@ -53,7 +53,7 @@
 # 3つの階層
 ![階層](<images/スクリーンショット 2025-02-10 15.23.47.png>)
 
-# AWS IOT Greengrass
+# AWS IOT Greengrass(Greengrass=緑の草)
 - AWS IoT Greengrassは、IoTデバイスでのデータ処理をローカルで行うためのサービスです。
 - Greengrassを使用することで、IoTデバイスからクラウドにデータを送信する前に、デバイス内でデータを処理し、必要なデータのみをクラウドに送信することができます。
 
