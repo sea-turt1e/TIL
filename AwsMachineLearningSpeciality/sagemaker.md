@@ -145,3 +145,9 @@ response = sm_client.create_transform_job(
 	•	完全にオンデマンドで推論したいなら → ③ AWS Batch + SageMaker
 
 どれが最適か、要件に合わせて選ぶのが良いですね。
+
+
+## Sagemaker Neo(Neural Network Optimizer)
+- Sagemaker Neo は、機械学習モデルを最適化して、デバイスにデプロイするためのサービス
+- モデルの最適化により、デバイス上での推論速度が向上
+- Neo は、モデルの最適化を自動化してくれる
