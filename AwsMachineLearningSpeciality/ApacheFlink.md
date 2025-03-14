@@ -3,3 +3,4 @@
 - データストリームの処理にのみ使われる
   - Kinesis Data Streamsに使われる
   - Kinesis Firehoseには使われない
+- テーブルAPIはSQLライクな構文で書ける
