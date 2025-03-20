@@ -151,3 +151,9 @@ response = sm_client.create_transform_job(
 - Sagemaker Neo は、機械学習モデルを最適化して、デバイスにデプロイするためのサービス
 - モデルの最適化により、デバイス上での推論速度が向上
 - Neo は、モデルの最適化を自動化してくれる
+
+## Zeppelin
+- インタラクティブなデータ分析環境
+- データの可視化、データ処理、機械学習などが可能
+- インタラクティブなノートブック形式でコードを実行できる
+- Spark、Hadoop、Hive、HBase、Cassandra などのデータソースに対応
