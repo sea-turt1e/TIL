@@ -70,28 +70,28 @@ pip instal -r requirements.txt
 - `examples/train_lora/deepseek_lora_sft.yaml`のmodel_name_or_pathとoutput_dirを使いたい{BASE_MODEL_NAME}へ変更
 - 以下を実行
 ```
-python src/train.py \   
-    --model_name_or_path {BASE_MODEL_NAME} \
-    --dataset dataset_sirankedo \
-    --template deepseek \
-    --cutoff_len 512 \
-    --output_dir output \
-    --num_train_epochs 100 \
-    --per_device_train_batch_size 32 \
-    --per_device_eval_batch_size 64 \
-    --gradient_accumulation_steps 32 \
-    --learning_rate 2e-4 \
-    --logging_steps 10 \
-    --save_steps 100 \
-    --save_total_limit 2 \
-    --bf16 True \
-    --do_train \
-    --finetuning_type lora \
-    --lora_rank 8 \
-    --lora_alpha 32 \
-    --evaluation_strategy "no" \
-    --cache_dir huggingface_cache \
-    --overwrite_output_dir \
+python src/train.py \
+--model_name_or_path {BASE_MODEL_NAME} \
+--dataset dataset_sirankedo \
+--template deepseek \
+--cutoff_len 512 \
+--output_dir output/{BASE_MODEL_NAME} \
+--num_train_epochs 2 \
+--per_device_train_batch_size 32 \
+--per_device_eval_batch_size 64 \
+--gradient_accumulation_steps 32 \
+--learning_rate 2e-4 \
+--logging_steps 10 \
+--save_steps 1 \
+--save_total_limit 2 \
+--bf16 True \
+--do_train \
+--finetuning_type lora \
+--lora_rank 8 \
+--lora_alpha 32 \
+--evaluation_strategy "no" \
+--cache_dir huggingface_cache \
+--overwrite_output_dir \
 --trust_remote_code True
 
 - ただし`cyberagent/DeepSeek-R1-Distill-Qwen-14B-Japanese`ではlm_headがないということでエラーになる。
