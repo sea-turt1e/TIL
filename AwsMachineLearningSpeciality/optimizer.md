@@ -26,12 +26,21 @@
 (4) Adam（Adaptive Moment Estimation）
 	•	SGD + Momentum + 学習率の適応的な調整
 	•	一般的に使われる最適化手法で、計算効率が良く収束しやすい
+	•　RMSpropを改良したもの
 
 (5) RMSprop（Root Mean Square Propagation）
 	•	勾配の変動を考慮し、学習率を調整する手法
 	•	深層学習でよく使われる
 
-3. Optimizerの選び方
+(6) Adagrad(Adaptive Gradient Algorithm)
+	•	各パラメータに対して異なる学習率を適用する手法
+	•	稀な特徴に対しても効果的
+	•	ただし、学習率が徐々に小さくなるため、長期的な学習には不向き
+
+ちなみに
+AdaBoostは、アンサンブル学習の手法であり、Optimizerとは異なる。
+
+1. Optimizerの選び方
 	•	基本的にはAdamを使う → 汎用的でバランスが良い
 	•	収束が遅い場合 → Momentumを試す
 	•	シンプルなモデルで過学習を防ぎたい → SGD
