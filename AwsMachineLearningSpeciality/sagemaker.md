@@ -157,3 +157,12 @@ response = sm_client.create_transform_job(
 - データの可視化、データ処理、機械学習などが可能
 - インタラクティブなノートブック形式でコードを実行できる
 - Spark、Hadoop、Hive、HBase、Cassandra などのデータソースに対応
+
+## XGBoostSageMakerEstimator
+- XGBoost は、勾配ブースティングアルゴリズムを使用した機械学習ライブラリ
+- XGBoostSageMakerEstimator は、SageMaker 上で XGBoost モデルをトレーニングするためのクラス
+- XGBoostSageMakerEstimator を使用することで、SageMaker 上で XGBoost モデルを簡単にトレーニングできる
+
+## Livy(Apache Livy)
+- Apache Livy は、Apache Spark クラスターに対して REST API を介してアクセスするためのサービス
+- Livy を使用することで、Spark クラスターに対して REST API を介してアクセスできる
