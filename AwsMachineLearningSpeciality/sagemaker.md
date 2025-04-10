@@ -166,3 +166,28 @@ response = sm_client.create_transform_job(
 ## Livy(Apache Livy)
 - Apache Livy は、Apache Spark クラスターに対して REST API を介してアクセスするためのサービス
 - Livy を使用することで、Spark クラスターに対して REST API を介してアクセスできる
+
+## Sagemaker Canvas
+- Sagemaker Canvasは、ノーコードで機械学習モデルを構築するためのサービスです。
+- データの前処理、特徴量エンジニアリング、モデルのトレーニング、評価、デプロイまでを一貫して行うことができます。
+- Sagemaker Canvasは、SageMaker Studioと統合されており、Studioのインターフェースを使用して操作します。
+
+## Sagemaker Training Compiler
+- Sagemaker Training Compilerは、機械学習モデルのトレーニングを高速化するためのコンパイラです。
+- GPTが使われている（ml.p3, ml.p4のような）
+- PytorchモデルはPytorch/XLA's save functionを使用して保存する必要がある。
+  - XLAは、TensorFlowのためのコンパイラで、PyTorchのためのコンパイラでもある。
+- コンパイラとは、プログラムを実行するための中間コードに変換するソフトウェアのこと。
+- debugをしたい場合はcopilier_configでenable_debuggingをTrueにする。
+
+## Sagemaker Feature Store
+- Sagemaker Feature Storeは、機械学習モデルの特徴量を管理するためのサービスです。
+
+## Sagemaker ML Lineage Tracking
+- Sagemaker ML Lineage Trackingは、機械学習モデルのトレーニングやデプロイの履歴を追跡するためのサービスです。
+- MLOpsのためのサービス
+
+## Sagemaker Data Wrangler(Wrangler=カウボーイ)
+- Sagemaker Data Wranglerは、データの前処理を行うためのサービスです。
+- ETLを行うためのサービス
+- データの前処理、特徴量エンジニアリング、データの可視化などを行うことができます。
