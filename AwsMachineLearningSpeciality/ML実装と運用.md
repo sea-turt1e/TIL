@@ -103,6 +103,8 @@
 # polly
 - Amazon Pollyは、テキストを音声に変換するためのサービスです。
 - Pollyを使用することで、アプリケーションに音声合成機能を追加することができます。
+- AWSなど略語をAmazon Web Servicesと読ませるには発音辞書を作成する必要がある。
+- SSML（Speech Synthesis Markup Language）は、音声合成のためのマークアップ言語です。<speak>タグを使用して、音声合成のプロパティを指定することができます。
 
 # Transcribe
 - Transcribeは、音声データをテキストに変換するためのサービスです。
