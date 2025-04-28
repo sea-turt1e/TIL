@@ -12,7 +12,7 @@
 - boto3は、AWSのサービスをPythonから利用するためのライブラリです。
 
 # AWS CloudTrail
-- AWS CloudTrailは、AWSアカウントで行われた操作のログを記録するサービスです。人の操作記録やAPI呼び出し
+- AWS CloudTrailは、AWSアカウントで行われた操作のログを記録するサービスです。人の操作記録やAPI呼び出し（**API呼び出しも記録できる**）
 - AWS CloudTrailを使用することで、AWSアカウントの操作履歴を確認することができます。
 - APIの呼び出し履歴を記録することができる。
 

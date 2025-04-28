@@ -116,3 +116,22 @@ F1スコアが高いほど、PrecisionとRecallのバランスが良いモデル
 ## accuracy
 - TP, FP, TN, FNを全部足して、全部でわる
 - (TP + TN) / (TP + FP + TN + FN)
+
+## False Positive Rate
+- FP / (FP + TN)
+- 偽陽性率
+
+## Flase Negative Rate
+- FN / (TP + FN)
+- 偽陰性率
+
+## True Positive Rate
+- TP / (TP + FN)
+- 真陽性率
+
+## True Negative Rate
+- TN / (FP + TN)
+- 真陰性率
+
+上4つは実際のクラスに対して、予測が正しいか/誤っているどうかを表す
+actual（行）に対して行う
