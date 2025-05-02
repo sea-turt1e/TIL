@@ -4,7 +4,7 @@
 ## AWS Glueとは？
 AWS Glue は、ETL（Extract, Transform, Load） を自動化するサーバーレスのデータ統合サービスです。  
 異なるデータソースからデータを抽出（Extract）、変換（Transform）、ロード（Load）するプロセスを効率化し、データパイプラインを簡単に構築できます。
-
+- ストリーミングはできない
 ---
 
 ## AWS Glue の主な機能
