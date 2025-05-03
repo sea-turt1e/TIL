@@ -5,7 +5,7 @@
 
 # AWS Step Functions
 - AWS Step Functions は、分散アプリケーションとマイクロサービスを構築するためのサービスです。
-- Lambdaとの違いは、Lambdaは1つの関数を実行するだけであるのに対して、Step Functionsは複数のLambda関数を組み合わせて、ワークフローを作成することができる点です。
+- Lambdaとの違いは、Lambdaは1つの関数を実行するだけであるのに対して、**Step Functionsは複数のLambda関数を組み合わせて**、ワークフローを作成することができる点です。
 - また、Step Functionsは、Lambda関数だけでなく、EC2やFargate、SageMakerなどのAWSサービスや、オンプレミスのサービスとも連携することができます。
 
 # Python(boto3)
