@@ -152,7 +152,7 @@ response = sm_client.create_transform_job(
 - モデルの最適化により、デバイス上での推論速度が向上
 - Neo は、モデルの最適化を自動化してくれる
 
-## Zeppelin
+## Zeppelin(=Apache Zeppelin 飛行船)
 - インタラクティブなデータ分析環境
 - データの可視化、データ処理、機械学習などが可能
 - インタラクティブなノートブック形式でコードを実行できる
@@ -174,7 +174,7 @@ response = sm_client.create_transform_job(
 
 ## Sagemaker Training Compiler
 - Sagemaker Training Compilerは、機械学習モデルのトレーニングを高速化するためのコンパイラです。
-- GPTが使われている（ml.p3, ml.p4のような）
+- GPUが使われている（ml.p3, ml.p4のような）
 - PytorchモデルはPytorch/XLA's save functionを使用して保存する必要がある。
   - XLAは、TensorFlowのためのコンパイラで、PyTorchのためのコンパイラでもある。
 - コンパイラとは、プログラムを実行するための中間コードに変換するソフトウェアのこと。
@@ -192,14 +192,14 @@ response = sm_client.create_transform_job(
 - ETLを行うためのサービス
 - データの前処理、特徴量エンジニアリング、データの可視化などを行うことができます。
 
-## Server Inference
+## Serverless Inference
 - Serverless Inferenceはデプロイオプションであり、機械学習モデルをサーバーレス環境にデプロイするためのサービスです。以下の特徴があります：
 - 目的: 基盤となるインフラストラクチャを構成または管理することなく、MLモデルをデプロイしてスケーリングすることができるサービス
 - ユースケース: トラフィックの急増と停止の間にアイドル期間があり、コールドスタートを許容できるワークロードに最適
 - 動作: トラフィックに応じて自動的にコンピューティングリソースを起動し、スケールイン・アウトする
 
 ## inference recommender
-_ Inference Recommenderは推奨サービスであり、モデルデプロイの最適な構成を推奨するためのツールです
+- Inference Recommenderは推奨サービスであり、モデルデプロイの最適な構成を推奨するためのツールです
 
 
 ## ライフサイクル構成
