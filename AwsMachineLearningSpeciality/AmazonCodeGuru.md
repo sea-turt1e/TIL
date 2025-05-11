@@ -1,4 +1,4 @@
-# Amazon CodeGuru
+# Amazon CodeGuru（Guru=教師）
 ## Amazon CodeGuru Security
 - Amazon CodeGuru Security Reviewは、コードのセキュリティを自動的にレビューするサービスです。
 - Amazon CodeGuru Security Reviewを使用することで、コードの脆弱性やセキュリティベストプラクティスに関する問題を検出することができます。
